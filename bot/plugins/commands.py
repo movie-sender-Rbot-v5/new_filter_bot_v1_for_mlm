@@ -54,7 +54,7 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('🔰 UPDATE CHANNEL 🔰', url='https://t.me/mlm_movies_update'),
     ],[
-        InlineKeyboardButton('OWNER 👨‍✈️', url='https://t.me/mrplantozz'),
+        InlineKeyboardButton('OWNER 👨‍✈️', url='https://t.me/mrplantozz_bot'),
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
