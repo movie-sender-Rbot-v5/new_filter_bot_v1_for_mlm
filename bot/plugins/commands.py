@@ -49,8 +49,8 @@ async def start(bot, update):
     buttons = [[
         InlineKeyboardButton('🔰 MOVIE REQESTING GROUP 🔰', url='https://t.me/NEW_MLM_HD_MOVES'),
     ],[
-        InlineKeyboardButton('🔰CHANNEL 1🔰', url ='https://t.me/mlm_movie_1')
-        InlineKeyboardButton('🔰CHANNEL 2🔰', url ='https://t.me/mlm_movie_2'),
+        InlineKeyboardButton('🔰CHANNEL 1🔰', url='https://t.me/mlm_movie_1')
+        InlineKeyboardButton('🔰CHANNEL 2🔰', url='https://t.me/mlm_movie_2'),
     ],[
         InlineKeyboardButton('OWNER👨‍✈️', url='https://t.me/mrplantozz')
         InlineKeyboardButton('Help ⚙', callback_data="help")
