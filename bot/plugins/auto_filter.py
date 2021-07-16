@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"📥FOUND {(len_results)} MOVIES📥: <code>{query}</code>",
+                text=f"📥FOUND {(len_results)} FILES📥: <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
