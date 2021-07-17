@@ -1641,12 +1641,12 @@ async def callback_data(bot, update: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔰 REQESTING GROUP 🔰', url='https://t.me/NEW_MLM_HD_MOVES'),
         ],[
-            InlineKeyboardButton('🔰CHANNEL 1🔰', url='https://t.me/mlm_movie_1'),
-            InlineKeyboardButton('🔰CHANNEL 2🔰', url='https://t.me/mlm_movie_2'),
+            InlineKeyboardButton('🔰 UPDATE CHANNEL 🔰', url='https://t.me/mlm_movies_update'),
         ],[
-            InlineKeyboardButton('🔰 UPDATE CHANNEL 🔰', url='https://t.me/mlm_movies_update')
+            InlineKeyboardButton('OWNER 👨‍✈️', url='https://t.me/mrplantozz_bot'),
+            InlineKeyboardButton('HELP ⚙', callback_data="help"),
         ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
+           InlineKeyboardButton('CLOCE 🔒', callback_data='close'),
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1661,10 +1661,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
+            InlineKeyboardButton('HOME ⚓', callback_data='start'),
+            InlineKeyboardButton('ABOUT ⭕', callback_data='about')
         ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('CLOCE 🔐', callback_data='close')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
