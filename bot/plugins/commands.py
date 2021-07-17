@@ -53,6 +53,8 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('OWNER 👨‍✈️', url='https://t.me/mrplantozz_bot'),
         InlineKeyboardButton('Help ⚙', callback_data="help")
+    ],[
+       InlineKeyboardButton('CLOSE 🔒', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -91,8 +93,8 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('Home ⚓', callback_data='start'),
+        InlineKeyboardButton('Close 🔒', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
