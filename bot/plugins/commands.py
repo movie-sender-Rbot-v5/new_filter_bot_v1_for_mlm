@@ -54,7 +54,7 @@ async def start(bot, update):
         InlineKeyboardButton('OWNER 👨‍✈️', url='https://t.me/mrplantozz_bot'),
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ],[
-        InlineKeyboardButton('POP UP TESTING', popup='NOTHING'),
+        InlineKeyboardButton('POP UP TESTING', 'NOTHING')
     ],[
        InlineKeyboardButton('CLOSE 🔒', callback_data='close')
     ]]
