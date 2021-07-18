@@ -154,7 +154,7 @@ async def auto_filter(bot, update):
         # Just A Decaration
         result[0].append([
             InlineKeyboardButton(f"🎗️ Page 1/{len_result if len_result < max_pages else max_pages} 🎗️", callback_data="ignore"),
-            InlineKeyboardButton("HOW TO GET FILES 🤔", url="https://t.me/mlm_movies_update/18"),
+            InlineKeyboardButton("💢 HOW TO GET FILES 🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-18"),
         ])
         
         
