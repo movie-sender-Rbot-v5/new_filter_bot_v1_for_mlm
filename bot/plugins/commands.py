@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n \n <b>പുതിയ സിനിമകൾ ഇറങ്ങുമ്പോൾ തന്നെ ലഭിക്കാൻ ചാനെലിൽ ജോയിൻ ചെയ്യൂ.. \n ⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱<b> \n @NEW_MLM_HD_MOVES \n @mlm_movies_update</b>" ,
+                caption = f"{file_name} \n \n <b>പുതിയ സിനിമകൾ ഇറങ്ങുമ്പോൾ തന്നെ ലഭിക്കാൻ ചാനെലിൽ ജോയിൻ ചെയ്യൂ..<\b> \n <b>⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱<\b> \n <b>@NEW_MLM_HD_MOVES<\b> \n <b>@mlm_movies_update</b>" ,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
