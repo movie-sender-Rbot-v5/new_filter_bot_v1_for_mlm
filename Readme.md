@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/stargazers">
-    <img src="https://telegra.ph/file/5b4157c1de36c301314f9.jpg">
+    <img src="">
 
   </a>
   
