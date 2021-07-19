@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/stargazers">
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pcmag.com%2Fimagery%2Freviews%2F04SPR60EVOFwPWjuw5pLLNb-28..1615506318.png&imgrefurl=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Ftelegram&tbnid=waHwA3b_XIEa3M&vet=12ahUKEwiX3NXq0-7xAhXKEbcAHdYaAyMQMygDegUIARDGAQ..i&docid=n6l1XSFlmY9THM&w=996&h=560&q=telegram%20image%20&client=ms-android-asus-tpin&ved=2ahUKEwiX3NXq0-7xAhXKEbcAHdYaAyMQMygDegUIARDGAQ">
+    <img src="https://telegra.ph/file/5b4157c1de36c301314f9.jpg">
 
   </a>
   
