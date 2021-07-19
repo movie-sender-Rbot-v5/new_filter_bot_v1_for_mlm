@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         #results.append(
         #        [
-        #            InlineKeyboardButton("💢HOW TO GET FILES🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-18"),
+        #            InlineKeyboardButton("💢HOW TO GET FILES🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-19"),
         #        ]
         #    ) 
         for filter in filters: # iterating through each files
@@ -205,7 +205,7 @@ async def auto_filter(bot, update):
         ibuttonss = []
         ibuttonss.append(
                         [
-                            InlineKeyboardButton("💢 HOW TO GET FILES 🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-18")
+                            InlineKeyboardButton("💢 HOW TO GET FILES 🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-19")
                         ]
                     )
         for x in ibuttonss:
