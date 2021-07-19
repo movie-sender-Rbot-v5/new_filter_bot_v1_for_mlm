@@ -7,7 +7,7 @@
   </a>
   
   <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/fork">
-    <img src="https://img.shields.io/github/forks/CrazyBotsz/Adv-Auto-Filter-Bot-V2?label=Fork&style=social">
+    <img src="https://telegra.ph/file/2fa15413e8356168e9721.jpg">
 
   </a>  
 </p>
