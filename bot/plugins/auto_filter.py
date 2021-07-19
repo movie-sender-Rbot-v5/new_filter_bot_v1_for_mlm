@@ -159,7 +159,6 @@ async def auto_filter(bot, update):
         # Just A Decaration
         result[0].append([
             InlineKeyboardButton(f"🎗️ Page 1/{len_result if len_result < max_pages else max_pages} 🎗️", callback_data="ignore"),
-            InlineKeyboardButton("💢 HOW TO GET FILES 🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-18"),
         ])
         
         
@@ -202,8 +201,16 @@ async def auto_filter(bot, update):
                 
             ibuttons = None # Free Up Memory...
             achatId = None
-            
-            
+
+        ibuttonss = []
+        ibuttonss.append(
+                        [
+                            InlineKeyboardButton("💢 HOW TO GET FILES 🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-18")
+                        ]
+                    )
+        for x in ibuttonss:
+                result[0].insert(0, x) #Insert invite link buttons at first of page
+                
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
