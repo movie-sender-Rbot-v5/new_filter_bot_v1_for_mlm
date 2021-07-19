@@ -60,11 +60,11 @@ async def auto_filter(bot, update):
     filters = await db.get_filters(group_id, query)
     
     if filters:
-            buttons = [[
-                InlineKeyboardButton("💢HOW TO GET FILES🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-18"),
-           
-            ]]
-
+        #results.append(
+        #        [
+        #            InlineKeyboardButton("💢HOW TO GET FILES🤔", url="https://telegra.ph/HOW-TO-GET-FILES-07-18"),
+        #        ]
+        #    ) 
         for filter in filters: # iterating through each files
             file_name = filter.get("file_name")
             file_type = filter.get("file_type")
